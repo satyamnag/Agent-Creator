@@ -1,0 +1,17 @@
+[project]
+name = "autogen-agent-creator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "autogen-agentchat>=0.7.5",
+    "autogen-core>=0.7.5",
+    "autogen-ext>=0.7.5",
+    "grpcio>=1.76.0",
+    "grpcio-tools>=1.71.2",
+    "openai>=2.14.0",
+    "protobuf>=5.29.5",
+    "python-dotenv>=1.2.1",
+    "tiktoken>=0.12.0",
+]
