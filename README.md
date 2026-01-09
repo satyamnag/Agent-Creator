@@ -9,7 +9,7 @@
 ### Creator reads a Python template and generates a new agent class automatically.
 
 ## 📦 Dynamic Module Creation
-### Saves source files into /agents/<name>.py and imports them at runtime.
+### Saves source files into /agents/{name}.py and imports them at runtime.
 
 ## ⚡ Live Runtime Registration
 ### Each generated agent is instantly registered and activated within Autogen.
@@ -22,3 +22,4 @@
 
 ## 💡 Automatic First Task
 ### Creator immediately prompts new agents to generate their first idea.
+
