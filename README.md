@@ -1,25 +1,24 @@
 # 🤖 Agent Creator
 
-### Agent Creator is an autonomous system that dynamically generates, registers, and launches new AI agents at runtime using Autogen Core and Autogen AgentChat.
-### Each generated agent is a fully independent Python module with its own logic, personality, and system message.
+#### Agent Creator is an autonomous AI system that generates, registers, and launches new AI agents at runtime using Autogen Core and Autogen AgentChat.
+#### Each created agent becomes a fully independent Python module with its own logic, personality, and system prompt.
 
 ## ✨ Key Features
 
-## 🧠 Autonomous Agent Generation
-### Creator reads a Python template and generates a new agent class automatically.
+### 🧠 Autonomous Agent Generation
+#### The Creator Agent reads a predefined Python template and automatically builds new agent classes on demand.
 
-## 📦 Dynamic Module Creation
-### Saves source files into /agents/{name}.py and imports them at runtime.
+### 📦 Dynamic Module Creation
+#### New agents are saved as individual Python files inside "/agents/{agent_name}.py", making them modular, reusable, and instantly importable.
 
-## ⚡ Live Runtime Registration
-### Each generated agent is instantly registered and activated within Autogen.
+### ⚡ Live Runtime Registration
+#### Every generated agent is automatically registered and activated within AutoGen—no manual setup needed.
 
-## 🛡️ UTF-8 Safe Across Platforms
-### Includes guards to prevent Windows & Unicode encoding crashes.
+### 🎯 Template-Based Consistency
+#### All agents follow a consistent class structure and shared inheritance pattern, ensuring uniform behavior and maintainability.
 
-## 🎯 Template-Based Consistency
-### All agents maintain the same class structure and inheritance.
+### 💡 Autonomous Development Cycle
+#### Once an agent is created, it immediately begins operating independently, generating outputs or tasks without manual intervention and stores it under "ideas/{idea_name}.md".
 
-## 💡 Automatic First Task
-### Creator immediately prompts new agents to generate their first idea.
-
+## 🔐 Environment Variables
+#### OPENAI_API_KEY=your openai api key
